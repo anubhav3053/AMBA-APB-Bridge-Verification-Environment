@@ -2,7 +2,8 @@
 // Project      : AMBA APB Bridge Verification Environment
 // File         : design.sv
 // Author       : Anubhav Agarwal
-// Description  : Synthesizable RTL for the APB Bridge/Slave DUT.
+// Description  : Synthesizable RTL implementation of the APB logic. Decodes APB transactions, 
+//          handles PSEL/PENABLE handshaking, and manages data transfer to internal registers.
 // Protocol     : AMBA APB v3.0
 //==============================================================================
 interface APB_intf #(parameter ADDR_WIDTH = 32, DATA_WIDTH = 32) (input clk);
