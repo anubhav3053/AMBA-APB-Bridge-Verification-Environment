@@ -1,3 +1,11 @@
+//=========================================================================================
+// Project      : AMBA APB Bridge Verification Environment
+// File         : apb_master.sv
+// Author       : Anubhav Agarwal
+// Description  : Top-level verification environment. Instantiates the DUT, Master BFM, and 
+//                Slave BFM, and manages the system clock, reset, and main test sequence.
+// Protocol     : AMBA APB v3.0
+//=========================================================================================
 class packet#(parameter ADDR_WIDTH = 32, DATA_WIDTH = 32);
   bit start_transfer;
   rand bit pwrite;
