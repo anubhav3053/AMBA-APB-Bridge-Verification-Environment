@@ -32,6 +32,10 @@ Below is a waveform capture showing a successful Write followed by a Read transa
 * **Language**: SystemVerilog
 * **Simulator**: EDA Playground 
 
+## 🚀 Run Online
+You can simulate this project directly in your browser using EDA Playground:
+[**🔗 Click here to run the Simulation on EDA Playground**](https://www.edaplayground.com/x/N6Zm)
+
 ## How to Run
 1. Clone the repository.
 2. Compile the `rtl/design.sv` and `tb/` files together.
