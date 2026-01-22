@@ -1,3 +1,10 @@
+//==============================================================================
+// Project      : AMBA APB 3.0 Verification Environment
+// File         : design.sv
+// Author       : Anubhav Agarwal
+// Description  : Synthesizable RTL for the APB Bridge/Slave DUT.
+// Protocol     : AMBA APB v3.0
+//==============================================================================
 interface APB_intf #(parameter ADDR_WIDTH = 32, DATA_WIDTH = 32) (input clk);
   logic start_transfer;
   logic pwrite;
