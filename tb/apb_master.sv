@@ -1,5 +1,5 @@
 //==============================================================================
-// Project      : AMBA APB 3.0 Verification Environment
+// Project      : AMBA APB Bridge Verification Environment
 // File         : apb_master.sv
 // Author       : Anubhav Agarwal
 // Description  : Implements the APB Master BFM (Bus Functional Model) to generate PSEL, PENABLE, and PWRITE signals.
