@@ -21,7 +21,7 @@ This repository contains a SystemVerilog-based verification environment for an A
 
 ## Tools Used
 * **Language**: SystemVerilog
-* **Simulator**: [Mention what you used, e.g., EDA Playground / Vivado / Questasim]
+* **Simulator**: EDA Playground 
 
 ## How to Run
 1. Clone the repository.
