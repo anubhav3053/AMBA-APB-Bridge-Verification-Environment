@@ -1,10 +1,11 @@
-//==============================================================================
+//=================================================================================================
 // Project      : AMBA APB Bridge Verification Environment
 // File         : apb_master.sv
 // Author       : Anubhav Agarwal
-// Description  : Implements the APB Master BFM (Bus Functional Model) to generate PSEL, PENABLE, and PWRITE signals.
+// Description  : APB Master BFM (Bus Functional Model). Drives the APB bus signals (PSEL, PENABLE,
+//                PADDR, PWDATA) to initiate Read and Write transactions driven by the testbench.
 // Protocol     : AMBA APB v3.0
-//==============================================================================
+//=================================================================================================
 module apb_master #(
   parameter ADDR_WIDTH = 32,
   parameter DATA_WIDTH = 32
