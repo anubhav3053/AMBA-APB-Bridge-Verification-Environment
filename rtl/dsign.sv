@@ -1,5 +1,5 @@
 //==============================================================================
-// Project      : AMBA APB 3.0 Verification Environment
+// Project      : AMBA APB Bridge Verification Environment
 // File         : design.sv
 // Author       : Anubhav Agarwal
 // Description  : Synthesizable RTL for the APB Bridge/Slave DUT.
