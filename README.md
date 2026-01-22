@@ -11,6 +11,15 @@ This repository contains a SystemVerilog-based verification environment for an A
   * `apb_master.sv`: Master Bus Functional Model (BFM).
   * `apb_slave.sv`: Slave BFM / Monitor components.
 
+## 📷 Verification Architecture
+![Block Diagram](docs/block_diagram.png)
+
+This environment uses a layered architecture where the Master BFM generates traffic and the Slave BFM simulates peripheral responses with random wait-states.
+
+## 📊 Simulation Results
+Below is a waveform capture showing a successful Write followed by a Read transaction.
+![Waveform](docs/waveform_result.png)
+
 ## Features Verified
 * **Protocol Compliance**: Checks PSEL, PENABLE, and PREADY handshake mechanisms.
 * **Data Integrity**: Verifies that `PWDATA` written by the master matches `PRDATA` read from the slave.
