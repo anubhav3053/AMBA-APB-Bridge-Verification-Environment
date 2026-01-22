@@ -1,3 +1,11 @@
+//=============================================================================================
+// Project      : AMBA APB Bridge Verification Environment
+// File         : apb_master.sv
+// Author       : Anubhav Agarwal
+// Description  : APB Slave BFM. Monitors the bus for requests and responds with PREADY/PRDATA. 
+//                Simulates peripheral behavior including random wait-state insertion.
+// Protocol     : AMBA APB v3.0
+//============================================================================================
 module apb_slave #(
   parameter ADDR_WIDTH = 32,
   parameter DATA_WIDTH = 32
