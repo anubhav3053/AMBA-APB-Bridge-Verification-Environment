@@ -111,7 +111,4 @@ module apb_master #(
       end
     endcase
   end
-
-  // Generate transfer_done signal
-  // assign transfer_done = PREADY;
 endmodule
