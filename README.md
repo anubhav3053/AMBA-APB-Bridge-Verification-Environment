@@ -16,6 +16,10 @@ This repository contains a SystemVerilog-based verification environment for an A
 
 This environment uses a layered architecture where the Master BFM generates traffic and the Slave BFM simulates peripheral responses with random wait-states.
 
+### Finite State Machine (Master)
+The APB Master follows a 3-state FSM (IDLE, SETUP, ACCESS) to ensure protocol compliance.
+![FSM Diagram](docs/fsm_diagram.png)
+
 ## 📄 Documentation
 For a detailed explanation of the protocol, FSM design, and signal descriptions, please refer to the project presentation:
 [**👉 View Project Presentation (PDF)**](docs/AMBA_APB_Project_Documentation.pdf)
