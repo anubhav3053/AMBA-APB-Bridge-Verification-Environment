@@ -16,6 +16,10 @@ This repository contains a SystemVerilog-based verification environment for an A
 
 This environment uses a layered architecture where the Master BFM generates traffic and the Slave BFM simulates peripheral responses with random wait-states.
 
+## 📄 Documentation
+For a detailed explanation of the protocol, FSM design, and signal descriptions, please refer to the project presentation:
+[**👉 View Project Presentation (PDF)**](docs/AMBA_APB_Project_Documentation.pdf)
+
 ## 📊 Simulation Results
 Below is a waveform capture showing a successful Write followed by a Read transaction.
 ![Waveform](docs/waveform_result.png)
