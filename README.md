@@ -15,6 +15,7 @@ This repository contains a complete SystemVerilog-based verification environment
   * `block_diagram.png`: Testbench architecture block diagram.
   * `fsm_diagram.png`: APB Master FSM state diagram.
   * `waveform_result.png`: Simulation waveform showing write and read transactions.
+  * `AMBA_APB_Project_Documentation.pdf`: Full protocol documentation and project explanation.
 
 ## 📷 Verification Architecture
 ![Block Diagram](docs/block_diagram.png)
@@ -93,6 +94,11 @@ Below is a waveform capture showing a successful Write followed by a Read transa
   * Back-to-back transfers with no wait states
   * PSLVERR error response handling
   * Reset mid-transfer behaviour
+
+## 📄 Documentation
+For a detailed explanation of the APB protocol, signal descriptions, FSM design, and project overview, refer to the full project documentation:
+
+[**👉 View Project Documentation (PDF)**](docs/AMBA_APB_Project_Documentation.pdf)
 
 ## Tools Used
 * **Language**: SystemVerilog (IEEE 1800-2017)
